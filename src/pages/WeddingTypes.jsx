@@ -12,6 +12,13 @@ import img12 from '../assets/northwedding2.jpg'
 function WeddingTypes() {
   const WeddingTypes = [
     {
+      id: 4,
+      title: 'Gujarati Wedding',
+      image: img5,
+      description: 'Gujarati weddings are joyous affairs with colorful attire, garba dancing, and unique customs. The ceremonies are festive and include many folk elements and traditional Gujarati cuisine.',
+      ceremonies: ['Grah Shanti', 'Pithi', 'Garba', 'Mandap Muhurat', 'Jaimala', 'Kanyadaan', 'Pheras', 'Vidaai']
+    },
+    {
       id: 1,
       title: 'North Indian Wedding',
       image: img12,
@@ -32,13 +39,7 @@ function WeddingTypes() {
       description: 'Bengali weddings feature distinctive rituals, with the bride wearing the traditional red and white saree. These weddings emphasize cultural aspects and typically include elaborate feasts with unique Bengali cuisine.',
       ceremonies: ['Aiburo Bhaat', 'Dodhi Mangal', 'Gaye Holud', 'Shubho Drishti', 'Saat Paak', 'Sindoor Daan', 'Bou Bhaat']
     },
-    {
-      id: 4,
-      title: 'Gujarati Wedding',
-      image: img5,
-      description: 'Gujarati weddings are joyous affairs with colorful attire, garba dancing, and unique customs. The ceremonies are festive and include many folk elements and traditional Gujarati cuisine.',
-      ceremonies: ['Grah Shanti', 'Pithi', 'Garba', 'Mandap Muhurat', 'Jaimala', 'Kanyadaan', 'Pheras', 'Vidaai']
-    },
+    
     {
       id: 5,
       title: 'Maharashtrian Wedding',
